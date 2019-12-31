@@ -1,0 +1,4 @@
+O primeiro arquivo a ser criado deve ser o README, com a extensão .md ou .txt; preferencialmente .md
+Comandos:
+-git status: Verifica os arquivos alterados na pasta do projeto
+-git add "Nome do arquivo": Para adicionar o arquivo ao monitoramento do git
