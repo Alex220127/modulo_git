@@ -2,3 +2,12 @@ O primeiro arquivo a ser criado deve ser o README, com a extensão .md ou .txt; 
 Comandos:
 -git status: Verifica os arquivos alterados na pasta do projeto
 -git add "Nome do arquivo": Para adicionar o arquivo ao monitoramento do git
+-git add -A: Adicionar todos os arquivos ao monitoramento do git
+-git log: Log de alterações do git
+-git branch: Me indica o branch(versão) que estou no git
+-git reset --* id da atualização que queremos voltar
+*soft: Remove o commit e deixa os arquivos esperando para serem commitados novamente.
+*mixed: Remove o commit e deixa os arquivos esperando um add
+*hard: Remove o commit e todos os aquivos permanentemente
+
+
