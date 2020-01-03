@@ -10,4 +10,6 @@ Comandos:
 *mixed: Remove o commit e deixa os arquivos esperando um add
 *hard: Remove o commit e todos os aquivos permanentemente
 
-
+Trabalhando com novos branches(versões)
+git branch Nome do branch: Criar um novo branch
+git checkout Nome do branch: Muda para o branch de nome informado
