@@ -26,3 +26,6 @@ Enviar os arquivos do repositório local para o repositório remoto:
 
 Enviar os dados do repositório remoto para o repositório local:
 -git fetch -u origin master nome do branch a ser enviado
+
+Para ignorar arquivos no git:
+-Criar um arquivo chamado .gitignore e colocar dentro dele o nome dos arquivos que deseja ignorar
