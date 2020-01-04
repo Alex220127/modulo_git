@@ -9,7 +9,20 @@ Comandos:
 *soft: Remove o commit e deixa os arquivos esperando para serem commitados novamente.
 *mixed: Remove o commit e deixa os arquivos esperando um add
 *hard: Remove o commit e todos os aquivos permanentemente
+-git diff: Mostra as modificações realizadas nos arquivos, que ainda não foram commitadas
+-git diff --name-only: Mostra o nome dos arquivos modificados
+-git diff nome do arquivo: Mostra o que foi alterado no arquivo
+-git checkout HEAD -- nome do arquivo: Volta uma versão no arquivo
 
 Trabalhando com novos branches(versões)
 git branch Nome do branch: Criar um novo branch
 git checkout Nome do branch: Muda para o branch de nome informado
+
+Exportar um repositório local para o github:
+-git remote add origin https://github.com/Alex220127/modulo_git.git
+
+Enviar os arquivos do repositório local para o repositório remoto:
+-git push -u origin master nome do branch a ser enviado
+
+Enviar os dados do repositório remoto para o repositório local:
+-git fetch -u origin master
