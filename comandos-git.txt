@@ -25,4 +25,4 @@ Enviar os arquivos do repositório local para o repositório remoto:
 -git push -u origin master nome do branch a ser enviado
 
 Enviar os dados do repositório remoto para o repositório local:
--git fetch -u origin master
+-git fetch -u origin master nome do branch a ser enviado
